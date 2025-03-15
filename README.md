@@ -40,7 +40,7 @@ Antes de começar, você precisará ter um editor de código instalado em sua m�
 ## 📷 Capturas de Tela
 
 <div align="center">
-  <img src="../Museu_Ipiranga/imgGit/fotos_museu_ipiranga_para_gitHub.png" alt="Imagem dos projetos em layouts diferentes">
+  <img src="imgGit/fotos_museu_ipiranga_para_gitHub.png" alt="Imagem dos projetos em layouts diferentes">
 </div>
 
 
