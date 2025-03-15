@@ -1,185 +1,214 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-	<title>Museu Nacional</title>
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu do Ipiranga</title>
 
-	<!-- Normalize CSS -->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
-	<!-- Estilo customizado -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-	<!--[if lt IE 9]>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-	<![endif]-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- <img src="./img/logo.png" alt="Museu Nacional"> -->
+                <a class="navbar-brand" href="./index.html">Museu do <span>Ipiranga</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/exposicoes/" target="_blank">Exposições</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/sobre-o-museu/" target="_blank">+Museu</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/evento/" target="_blank">Eventos</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/educativo/" target="_blank">Educativo</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/biblioteca/" target="_blank">biblioteca</a>
+                        <a class="nav-link" href="https://museudoipiranga.org.br/contato/" target="_blank">contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-	<div id="container"><!-- Início container -->
+    <main class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <section class="container">
+                    <img id="entradaMuseu" src="./img/Museu_do_Ipiranga2.png" alt="imagem da entrada do Museu Nacional">
+                </section>
+                <div class="row">
+                    <div class="col-12">
+                        <article>
+                            <h3>Vídeo: conheça o museu</h3>
+                            <!-- 
+                                Vídeo original: "Museu do Ipiranga: bem-vindo a uma nova história. (30s)" 
+                                Fonte: YouTube - https://www.youtube.com/watch?v=TLkmmNMUf2Y 
+                                Autor: (MUSEU DO IPIRANGA)
+                            -->
+                            <video autoplay loop muted playsinline>
+                                <source src="./videos/Museu-do-ipiranga.mp4" type="video/mp4">
+                                Seu navegador não suporta a tag video.
+                                <!--  -->
+                            </video>
 
-		<header><!-- Início header -->
-			<div id="logo">
-				<h1><a href="">Museu Nacional</a></h1>
-			</div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <article id="exposicoes">
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li>
+                                    <a class="nav-link" href="https://museudoipiranga.org.br/exposicoes/">Para entender o museu</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/">Uma história do Brasil</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/">Passados Imaginados</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/">Territórios em Disputa</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/">Mundos do Trabalho</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/">Catalogar: Moedas e Medalhas</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" target="_blank" href="https://museudoipiranga.org.br/exposicoes/"><strong>Veja Todos (15)</strong></a>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <article id="historia">
+                            <h3>Inaugurado em 1895</h3>
+                            <p>
+                                O Museu do Ipiranga, também conhecido como Museu Paulista da Universidade de São Paulo,
+                                foi inaugurado em 1895 e está situado no Parque da Independência, em São Paulo. Este
+                                museu é um marco histórico importante para o Brasil, especialmente porque está
+                                localizado próximo ao local onde Dom Pedro I proclamou a Independência do Brasil em
+                                1822. Após uma extensa reforma, foi reaberto ao público em 2022.
+                                <a class="nav-link" href="https://museudoipiranga.org.br/sobre-o-museu/" target="_blank"><strong>Saiba mais sobre a história do Museu do Ipiranga aqui.</strong></a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <article id="mapa">
+                            <h3>Localização :</h3>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.522891835671!2d-46.612253923913656!3d-23.585573062483544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be650476023%3A0x2c33390e6e3805b1!2sMuseu%20do%20Ipiranga!5e0!3m2!1spt-BR!2sbr!4v1741700933145!5m2!1spt-BR!2sbr"
+                                allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <aside class="col-12 col-md-6"><!-- Início aside -->
+                <section id="visita"><!-- Início seção visita -->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="date">Data</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Quantidade de Pessoas</label>
+                            <input type="number" class="form-control" id="num_Pessoas" min="1" max="100">
+                        </div>
+                        <div class="container d-flex align-itens-center justify-content-center">
+                            <button type="submit" class="btn">Verificar Disponibilidade</button>
+                        </div>
+                    </form>
+                </section><!--/fim seção visita -->
+            <aside class="container">
 
-			<nav><!-- Início nav -->
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Exposições</a></li>
-					<li><a href="#">Pesquisa</a></li>
-					<li><a href="#">Acervo</a></li>
-					<li><a href="#">vídeos</a></li>
-					<li><a href="#">fotos</a></li>
-					<li><a href="#">contato</a></li>
-				</ul>
-			</nav><!--/fim nav -->
+                <section class="row galeria">
+                    <h4>Galeria de fotos</h4>
+                    <div class="col-12 col-md-6">
 
-		</header><!--/fim header -->
+                        <a href="">
+                            <img src="../img/Casas-e-coisas.jpg" alt="Descricao imagem">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Coletar-Imagens-e-objetos.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Comunicar-Loucas.jpg">
+                        </a>
+                        <a href="">
+                            <img src="../img/Casas-e-coisas.jpg" alt="Descricao imagem">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Coletar-Imagens-e-objetos.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Comunicar-Loucas.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6">
+    
+                        <a href="">
+                            <img src="../img/min_a-cidade-vista-de-cima.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/min_Mundos-do-trabalho.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Passados-imaginados-1024x653.jpg">
+                        </a>
+                        <a href="">
+                            <img src="../img/min_a-cidade-vista-de-cima.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/min_Mundos-do-trabalho.jpg">
+                        </a>
+    
+                        <a href="">
+                            <img src="../img/Passados-imaginados-1024x653.jpg">
+                        </a>
+                    </div>
 
-		<div id="principal"><!-- Início principal -->
+                </section>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <p class="text-light">Adaptado para Estudos.</p>
+            <a href="https://lrmdeveloper.com.br" target="_blank">LRM Developer</a>
+        </div>
+    </footer>
 
-			<div id="conteudo"><!-- Início conteudo -->
-
-				<section id="capa">
-					<img src="img/museu.png">
-				</section>
-
-				<section id="postagens">
-
-					<article id="video">
-
-						<h3>Vídeo: conheça o museu</h3>
-						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0"
-							allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-					</article>
-
-					<article id="mapa">
-						<h3>Mapa: Encontre o museu</h3>
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477"
-							width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</article>
-
-					<article id="exposicoes">
-						<h3>Exposições</h3>
-						<ul>
-							<li>
-								<a href="#">Os assustadores insetos</a>
-							</li>
-							<li>
-								<a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a>
-							</li>
-							<li>
-								<a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
-							</li>
-							<li>
-								<a href="#">Plantas do Brasil Central</a>
-							</li>
-							<li>
-								<a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
-							</li>
-							<li>
-								<a href="#">Arte Com Dinossauros - Paleoarte</a>
-							</li>
-							<li>
-								<a href="#"><strong>Veja todos (65)</strong></a>
-							</li>
-						</ul>
-					</article>
-
-					<article id="historia">
-						<h3>200 anos de história</h3>
-						<p>
-							Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre
-							as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses
-							construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje
-							abriga o Museu Histórico Nacional.
-						</p>
-
-						<a href=""><strong>Leia mais</strong></a>
-					</article>
-
-				</section>
-
-			</div><!--/fim conteudo -->
-
-			<aside><!-- Início aside -->
-				<section id="depoimento">
-					<img src="img/depoimento.png">
-				</section>
-
-				<section id="visita"><!-- Início seção visita -->
-					<h4>Faça uma visita</h4>
-					<form>
-						<fieldset>
-							<legend>Selecione uma data</legend>
-
-							<label for="data">Data</label>
-							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
-
-							<label for="qtd">Qtd pessoas</label>
-							<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
-
-						</fieldset>
-
-						<input class="botao" type="submit" value="Verificar disponibilidade">
-
-					</form>
-				</section><!--/fim seção visita -->
-
-				<section id="galeria">
-					<h4>Galeria de fotos</h4>
-
-					<a href="">
-						<img src="img/imagem1.jpg" height="93" width="93" alt="Descricao imagem">
-					</a>
-
-					<a href="">
-						<img src="img/imagem2.jpg" height="93" width="93">
-					</a>
-
-					<a href="">
-						<img src="img/imagem3.jpg" height="93" width="93">
-					</a>
-
-					<a href="">
-						<img src="img/imagem4.jpg" height="93" width="93">
-					</a>
-
-				</section>
-
-			</aside><!--/fim aside -->
-
-			<footer>
-				<p>
-					<a href="#">home</a>
-					<a href="#">Exposições</a>
-					<a href="#">Pesquisa</a>
-					<a href="#">acervo</a>
-					<a href="#">vídeos</a>
-					<a href="#">fotos</a>
-					<a href="#">contato</a>
-				</p>
-				<p>
-					2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
-				</p>
-			</footer>
-
-		</div><!--/fim principal -->
-
-	</div><!--/fim container -->
-
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
